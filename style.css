@@ -36,3 +36,13 @@ input {
 .star {
     color: red;
 }
+.info{
+    padding-left: 10px;
+}
+.info_name{
+    display:flex;
+    align-items: center;
+}
+.title{
+    margin-left: 20px;
+}
