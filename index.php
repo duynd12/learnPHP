@@ -24,7 +24,7 @@ include './submit.php';
                         <br>
                         <input type=" text" name="username" id="username">
                         <br>
-                        <div class="text_error"><?php echo $error_username; ?></div>
+                        <div class="text_error" style="margin-top:-10px;margin-bottom:10px"><?php echo $error_username; ?></div>
                         <br>
                     </div>
                     <div style="margin-top:-20px">
@@ -44,11 +44,11 @@ include './submit.php';
                         <br>
                         <input type="text" name="numberphone">
                         <br>
-                        <span class="text_error"><?php echo $error_numberphone; ?></span>
+                        <div class="text_error" style="margin-top: -10px;"><?php echo $error_numberphone; ?></div>
 
                         <br>
                     </div>
-                    <div style="margin-top:-20px">
+                    <div>
                         <label class="title">Nghề nghiệp :</label>
                         <br>
                         <input type="text" name="job">
@@ -59,16 +59,16 @@ include './submit.php';
                         <br>
                         <input type="text" name="email">
                         <br>
-                        <span class="text_error"><?php echo $error_email; ?></span>
+                        <div class="text_error" style="margin-top: -10px;"><?php echo $error_email; ?></div>
 
                         <br>
                     </div>
-                    <div style="margin-top:-20px">
-                        <label class="title">Password : <span class="star">*</span></label>
+                    <div>
+                        <label class=" title">Password : <span class="star">*</span></label>
                         <br>
-                        <input type="text" name="password">
+                        <input type="password" name="password">
                         <br>
-                        <span class="text_error"><?php echo $error_password; ?></span>
+                        <div class="text_error" style="margin-top: -10px;"><?php echo $error_password; ?></div>
 
                         <br>
                     </div>
@@ -98,7 +98,7 @@ include './submit.php';
                 Email : <h3><?php echo $email; ?></h3>
             </div>
             <div class="info_name">
-                Mật khẩu : <h3><?php echo $password; ?></h3>
+                Mật khẩu : <h3><?php echo $convertString; ?></h3>
             </div>
         </div>
     <?php } ?>
