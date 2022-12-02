@@ -16,7 +16,7 @@ include './submit.php';
 
 <body>
     <?php if ($isDisplay) { ?>
-        <form action="" method="post">
+        <form action="" method="post" enctype="multipart/form-data">
             <div class=wrapper>
                 <div class="container">
                     <div class="box_username">
