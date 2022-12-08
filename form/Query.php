@@ -21,11 +21,12 @@ class QueryData extends Database
                     if ($type === 'session') {
                         $_SESSION['username'] = $username;
                         echo '<script>alert("Đăng nhập thành công")</script>';
-                        header('Location:../message/Index.php');
+                        header('location: ../message/Index.php');
                     } else if ($type === 'cookie') {
-                        setcookie('username', $username, time() + 86400 * 15, '/');
+                        $_SESSION['username'] = $username;
+                        $_SESSION['expire'] = time() + (3600 * 3600 * 24 * 15);
                         echo '<script>alert("Đăng nhập thành công")</script>';
-                        header('Location:../message/Index.php');
+                        header('location: ../message/Index.php');
                     }
                 } else {
                     echo '<script>alert("Đăng nhập thất bại")</script>';

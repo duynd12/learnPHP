@@ -7,10 +7,15 @@ $data = $queryData->getData();
 $flag = 0;
 $errorMessage = $errorFile = "";
 
-if (!isset($_SESSION['username'])) {
+if (isset($_SESSION['username'])) {
+    if (isset($_SESSION['expire'])) {
+        if (time() > $_SESSION['expire']) {
+            session_destroy();
+        }
+    }
+} else {
     header('Location:../login/Index.php');
 }
-
 function CheckExistsSession()
 {
     global $queryData;

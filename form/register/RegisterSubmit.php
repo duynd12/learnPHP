@@ -3,6 +3,7 @@ require '../Query.php';
 
 $isError = 0;
 $errorName = $errorAge = $errorAddress = $errorJob = $errorDescription = $errorGender = $errorPassword = $errorUsername = $errorFile = "";
+
 if (
     isset($_POST['name']) || isset($_POST['age']) || isset($_POST['address'])
     || isset($_POST['job']) || isset($_POST['description'])
@@ -88,7 +89,6 @@ if (
             } else {
                 echo '<script>alert("Đăng kí thất bại")</script>';
             }
-            print_r($dataArray);
         }
     }
 }
