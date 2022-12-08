@@ -36,9 +36,9 @@ include './LoginSubmit.php';
                     </div>
                     <input type="checkbox" style="margin: 0 5px 0 20px;width:15px;height:15px;" name="save">Lưu thông tin đăng nhập
 
-                    <input type="submit"></input>
+                    <input type="submit" style="width:65%"></input>
                 </form>
-                <a href="../register/Index.php">Chưa có tài khoản</a>
+                <a href="../register/Index.php" style="margin-right:10px;float:right;margin-top:-60px">Chưa có tài khoản</a>
             </div>
         </div>
     </div>

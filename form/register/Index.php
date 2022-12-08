@@ -85,9 +85,9 @@ include './RegisterSubmit.php';
                     <input type="file" name="file_upload_avatar" id="file_upload">
                     <span class=" text_error" style="margin-top:10px;margin-bottom:10px"><?php echo $errorFile; ?></span>
                 </div>
-                <input type="submit"></input>
+                <input type="submit" style="width:50%"></input>
             </form>
-            <a href="../login/Index.php">Quay trở lại Đăng Nhập</a>
+            <a href="../login/Index.php" style="float:right;margin-top:-60px;margin-right:20px">Quay trở lại Đăng Nhập</a>
         </div>
     </div>
 </body>
