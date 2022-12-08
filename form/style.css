@@ -1,0 +1,90 @@
+.text_error {
+    color: red;
+    padding-left: 18px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+body {
+    background: #f1f1f1;
+    margin: 0;
+}
+
+.container {
+    width: 480px;
+    margin: 0 auto;
+    /* padding: 10px; */
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.box_username {
+    width: 100%;
+}
+
+.title {
+    margin-bottom: 15px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 20px;
+    height: 30px;
+}
+
+.star {
+    color: red;
+}
+
+.info {
+    padding-left: 10px;
+}
+
+.info_name {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin-left: 20px;
+}
+#description{
+    width: 90%;
+    padding-left: 10px;
+}
+.row{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+.messages_sent{
+    width: 100%;
+}
+.message_sent-img{
+    height:50px;
+    width:50px;
+
+    border-radius: 3px;
+}
+.header_message{
+    height:40px;
+    background-color: rgb(195, 150, 150);
+}
+.header_message a{
+    float:right;
+    margin-right:30px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top:7px;
+}
+
+a{
+    text-decoration:none;
+    cursor: pointer;
+}
